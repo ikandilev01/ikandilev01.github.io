@@ -20,7 +20,7 @@
 /* Cards styling */
 .sedans {
     background-color:  var(--sedans);
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .suvs {
@@ -29,7 +29,7 @@
 
 .luxury {
     background-color: var(--luxury);
-    border-radius: 0px 20px 0px 0px;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .container > * {
