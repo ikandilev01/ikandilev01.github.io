@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+    --right: hsl(179,47%,52%);
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--light-gray);
+}
+
+.main-container {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-component {
+    width: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.header-section {
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.header-section h1 {
+    color: var(--cyan);
+    margin-bottom: 15px;
+}
+
+.main-p { 
+    color: var(--bright-yellow);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.description {
+    color: var(--grayish-blue);
+}
+
+
+.left {
+    position: relative;
+    background-color: var(--cyan);
+    padding: 30px;
+    border-radius: 0 0 0 20px ;
+}
+
+.left h1 {
+    font-size: 20px;
+    color: var(--light-gray);
+    margin-bottom: 20px;
+}
+
+.price {
+    color: var(--light-gray);
+    
+}
+
+.access {
+    margin-top: 15px;
+    color: white;
+}
+
+span {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.left a {
+    position: absolute; 
+    text-decoration: none;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+    background-color: var(--bright-yellow);
+    padding: 15px;
+    width: 265px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.right {
+    padding: 30px;
+    background-color: var(--right);
+    border-radius: 0 0 20px 0 ;
+}
+
+.right h1 {
+    color: var(--light-gray);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: var(--light-gray);
+}
+
+
+
+/* note to self: Remember to change this as it wont be visible */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+
+@media (min-width: 550px) {
+    .grid-span-2 {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .main-container {
+        margin: 0;
+    }
+
+    .main-component {
+        margin: 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .description{
+        line-height: 1.5;
+    }
+
+
+    .left {
+        border-radius: 0;
+    }
+
+    .right {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .grid-span-2 {
+        grid-column: unset;
+    }
+
+    footer {
+        margin: 0;
+        padding: 5px;
+    }
+}
