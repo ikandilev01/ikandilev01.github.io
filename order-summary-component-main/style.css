@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    /* Primary */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+img {
+    border-radius: 20px 20px 0 0 ;
+}
+
+.card {
+    padding-bottom: 25px;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.plan {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.plan b {
+    color: var(--dark-blue)
+}
+
+.left p {
+    color: var(--desaturated-blue);
+}
+
+.order-info p {
+    color: var(--desaturated-blue);
+}
+
+.order-info, .order-info p {
+    margin: 25px;
+}
+
+.order-info h1 {
+    color: var(--dark-blue)
+}
+
+.music-image img {
+    position: absolute;
+    left: 25%;
+    top: -5%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right {
+    position: absolute;
+    top: 25%;
+    right: 20%; 
+}
+
+.right a {
+    font-weight: bold;
+    color: var(--bright-blue);
+}
+
+.order-info {
+    max-width: fit-content;
+}
+
+.attribution {
+    margin-top: 30rem;
+    text-align: center;
+}
+
+.order-payment {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#accept-order {
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#cancel-order {
+    color: var(--desaturated-blue);
+}
+
+.btn {
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 0 40px;    
+    /* border: 1px solid red; */
+}
+
+/* Hover effects */
+
+.left a:hover {
+    text-decoration: none;
+    color: var(--desaturated-blue);
+}
+
+#cancel-order:hover {
+    color: var(--dark-blue);
+}
+
+#accept-order:hover {
+    background-color: var(--desaturated-blue);
+}
