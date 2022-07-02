@@ -21,12 +21,12 @@ body {
     font-family: 'Red Hat Display', sans-serif;
     background: url(./images/pattern-background-desktop.svg);
     background-size: cover;
-}
-
-.container {
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    margin-top: 7rem;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 img {
@@ -34,55 +34,53 @@ img {
 }
 
 .card {
-    padding-bottom: 25px;
     background-color: white;
     text-align: center;
+    max-width: 450px;
+    min-width: fit-content;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.plan {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    position: relative;
-}
-
-.plan b {
-    color: var(--dark-blue)
-}
-
-.left p {
-    color: var(--desaturated-blue);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .order-info p {
+    margin: auto;
+    max-width: 350px;   
     color: var(--desaturated-blue);
 }
 
-.order-info, .order-info p {
-    margin: 25px;
-}
-
 .order-info h1 {
-    color: var(--dark-blue)
+    color: var(--dark-blue);
+    margin-bottom: 15px;
+    font-weight: 900;
 }
 
-.music-image img {
-    position: absolute;
-    left: 25%;
-    top: -5%;
+.order-info {
+    margin: 20px
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--very-pale-blue);
+    padding: 25px;
+    margin: 40px;
+    border-radius: 10px;
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-
+    line-height: 1.6rem;
+    padding-right: 90px;
 }
 
-.right {
-    position: absolute;
-    top: 25%;
-    right: 20%; 
+.left .price-text {
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+
+.left .price {
+    color: var(--desaturated-blue);
 }
 
 .right a {
@@ -90,43 +88,37 @@ img {
     color: var(--bright-blue);
 }
 
-.order-info {
-    max-width: fit-content;
-}
-
-.attribution {
-    margin-top: 30rem;
-    text-align: center;
-}
-
 .order-payment {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    gap: 30px;
+    margin:  40px;
+    justify-content: center;
+}
+
+.order-payment a  {
+    padding: 15px;
+}
+
+.btn {
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 900;
 }
 
 #accept-order {
+    box-shadow: rgb(38, 57, 77) 0px 10px 50px -10px;
     background-color: var(--bright-blue);
     color: var(--very-pale-blue);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #cancel-order {
     color: var(--desaturated-blue);
 }
 
-.btn {
-    font-weight: bold;
-    border-radius: 20px;
-    text-decoration: none;
-    padding: 15px;
-    margin: 0 40px;    
-    /* border: 1px solid red; */
-}
-
 /* Hover effects */
 
-.left a:hover {
+.right a:hover {
     text-decoration: none;
     color: var(--desaturated-blue);
 }
@@ -138,3 +130,7 @@ img {
 #accept-order:hover {
     background-color: var(--desaturated-blue);
 }
+
+
+
+
