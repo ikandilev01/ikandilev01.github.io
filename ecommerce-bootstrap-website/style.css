@@ -28,6 +28,10 @@
   font-weight: bold;
 }
 
+.navbar-brand {
+  font-family: Helvetica;
+}
+
 .main-text {
   padding: 50px;
   font-weight: bold;
