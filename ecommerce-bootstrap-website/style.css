@@ -48,3 +48,9 @@
     margin: 15px;
   }
 }
+
+@media screen and (max-width: 993px) {
+  .navbar-style {
+    gap: 0px;
+  }
+}
