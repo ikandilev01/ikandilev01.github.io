@@ -33,9 +33,3 @@
   font-weight: bold;
   font-size: 50px;
 }
-
-@media screen and (max-width: 990px) {
-  .main-navbar {
-    margin-top: 25px !important;
-  }
-}
