@@ -1,0 +1,41 @@
+.col {
+  text-align: center;
+}
+
+.header-selector {
+  background-color: rgb(103, 64, 219);
+  padding: 5px;
+}
+
+.nav-selector {
+  justify-content: flex-end;
+}
+
+.header-help {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  font-weight: medium;
+  font-size: 15px;
+}
+
+.header-help a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.link {
+  font-weight: bold;
+}
+
+.main-text {
+  padding: 50px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 990px) {
+  .main-navbar {
+    margin-top: 25px !important;
+  }
+}
