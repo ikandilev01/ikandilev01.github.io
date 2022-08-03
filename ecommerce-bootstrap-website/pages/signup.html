@@ -27,8 +27,7 @@
       </nav>
     </header>
     <nav
-      class="navbar sticky-top navbar-expand-lg bg-light main-navbar shadow-sm"
-    >
+      class="navbar sticky-top navbar-expand-lg bg-light main-navbar shadow-sm">
       <div class="container">
         <a
           class="navbar-brand p-1 bg-dark text-white rounded border border-dark"
@@ -66,9 +65,65 @@
           </ul>
         </div>
       </div>
+
     </nav>
     <main class="container">
       <h1 class="main-text text-center">Sign Up!</h1>
+      <form class="d-flex flex-column container col-xxl-4 col-xl-6 col-md-8 col-sm-10 col-12 bg-light p-5 shadow-lg bg-white rounded border border-success"
+      method="post">
+        <!-- First Name -->
+        <div class="form-outline mb-4">
+          <input type="text"
+          placeholder="First Name"
+          id="signUpForm"
+          class="form-control">
+        </div>
+        
+        <!-- Surname -->
+        <div class="form-outline mb-4">
+          <input type="text"
+          placeholder="Surname"
+          id="signUpForm"
+          class="form-control">
+        </div>
+
+        <!-- Email Address -->
+        <div class="form-outline mb-4">
+          <input type="email"
+          placeholder="Email Address"
+          id="signUpForm"
+          class="form-control">
+        </div>
+
+        <!-- Password -->
+        <div class="form-outline mb-4">
+          <input type="password"
+          placeholder="Password"
+          id="signUpForm"
+          class="form-control">
+        </div>
+
+        <!-- Confirm Password  -->
+        <div class="form-outline mb-4">
+          <input type="password"
+          placeholder="Confirm Password"
+          id="signUpForm"
+          class="form-control">
+        </div>
+
+        <!-- Form check -->
+        <!-- <div class="form-check mb-3">
+          <input type="checkbox"
+          class="form-check-input"
+          id="rememberCheck">
+          <label for="rememberCheck" class="form-check-label">Remember me</label>
+        </div> -->
+
+        <!-- Sign up button -->
+        <button type="submit"
+        class="btn btn-success">Sign up</button>
+
+      </form>
     </main>
     <footer class="container-fluid">
       <div class="container">
@@ -90,6 +145,7 @@
           © homteq, 2022 - 115 New Cavendish Street, London, W1W 6UW, UK
         </p>
       </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
       integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
