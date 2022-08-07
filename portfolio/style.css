@@ -1,7 +1,7 @@
-.p-lead-edu {
-    display: flex;
-    justify-content: space-between;
-}
+/* .p-lead-edu {
+    /* display: flex; */
+    /* justify-content: space-between; */
+/* } */
 
 .tool-icon {
     margin: 0px 15px;
@@ -12,7 +12,31 @@
 }
 
 .tech-grid:hover {
-    color:#ffc107;
-    background-color: #212529;
+    background-color: #4a4a4a;
     transition: all ease-in 0.3s;
+}
+
+.java-txt:hover, .js-txt:hover {
+    box-shadow: #ffc107 0px 0px 0px 3px;
+    color:#ffc107;
+}
+
+.html-txt:hover {
+    box-shadow: #dc3545 0px 0px 0px 3px;
+    color: #dc3545;
+}
+
+.css-txt:hover {
+    box-shadow: #0d6efd 0px 0px 0px 3px;
+    color: #0d6efd;
+}
+
+.php-txt:hover {
+    box-shadow: #198551 0px 0px 0px 3px;
+    color: #198551;
+}
+
+.sql-txt:hover {
+    box-shadow: #10b5d6 0px 0px 0px 3px;
+    color: #10b5d6;
 }
