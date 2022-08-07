@@ -1,0 +1,18 @@
+.p-lead-edu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool-icon {
+    margin: 0px 15px;
+}
+
+.tech-grid {
+    border-radius: 1rem;
+}
+
+.tech-grid:hover {
+    color:#ffc107;
+    background-color: #212529;
+    transition: all ease-in 0.3s;
+}
