@@ -15,8 +15,25 @@
     font-weight: 200;
 }
 
-.expand-more {
+.expand-more{
     fill: white;
+    animation-name: arrowUpDown;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes arrowUpDown {
+    0% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(15%);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
 }
 
 .tool-icon {
@@ -58,6 +75,5 @@
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 50px 0px;
 }
