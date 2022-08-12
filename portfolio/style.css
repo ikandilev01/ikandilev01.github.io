@@ -5,21 +5,29 @@
     /* justify-content: space-between; */
 /* } */
 
-.hero-heading, .navbar-brand, .learn-btn, .nav-item, .intro-p-highlight{
+.hero-heading, .navbar-brand, .learn-btn, .nav-item, .intro-p-highlight, .main-headings{
     font-family:'Poppins', 'Courier New', Courier, monospace;
     font-weight: 600;
 } 
 
+.custom-border-heading {
+    font-family:'Poppins', 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.custom-border-heading strong {
+    font-weight: 200;
+}
+
 body {
     background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
-
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 
 .custom-border {
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-color: #21d5fd21;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
 }
 
 .learn-btn {
@@ -63,6 +71,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 }
 
 .tech-grid:hover {
+    
     background-color: #4a4a4a;
     transition: all ease-in 0.3s;
 }
@@ -70,6 +79,7 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
 .java-txt:hover, .js-txt:hover {
     box-shadow: #ffc107 0px 0px 0px 3px;
     color:#ffc107;
+    
 }
 
 .html-txt:hover {
