@@ -10,6 +10,18 @@
     font-weight: 600;
 } 
 
+body {
+    background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+
+.custom-border {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 .learn-btn {
     margin-top: 25px;
 }

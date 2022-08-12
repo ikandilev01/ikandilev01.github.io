@@ -37,48 +37,50 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav navbar-style ms-auto text-center">
             <li class="nav-item mx-3">
-              <a class="nav-link text-primary" href="#">About me</a>
+              <a class="nav-link text-white" href="#">About me</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link text-primary" href="#sectionOne">Resume</a>
+              <a class="nav-link text-white" href="#sectionOne">Resume</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link text-primary" href="#sectionTwo"">Projects</a>
+              <a class="nav-link text-white" href="#sectionTwo"">Projects</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link text-primary" href="#sectionThree">Contact Me</a>
+              <a class="nav-link text-white" href="#sectionThree">Contact Me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Hero Section -->
-    <div class="container section px-4 py-5 my-5 text-center">
-      <h1 class="display-1 hero-heading">About me.</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead intro-p">
-          I am a second-year undergraduate student studying software engineering
-          at the University of Westminster. I've worked with a variety of
-          technologies, ranging from web development to data structures and
-          algorithms. However, front end web development is my main interest.
-          I'm currently learning a variety of web development technologies,
-          including
-          <span class="intro-p-highlight"
-            >PHP, JavaScript, Java, HTML5, CSS3 (Bootstrap and tailwind)</span
-          >.
-        </p>
-        <!-- Buttons -->
-        <div class="row flex-column flex-sm-row gap-3">
-          <div class="col">
-            <a href="#sectionOne" class="btn btn-primary shadow btn-lg learn-btn"
+    <div class="hero">
+      <div class="container section px-4 px-5 text-center">
+        <h1 class="display-1 text-white hero-heading">About me.</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead intro-p text-white">
+            I am a second-year undergraduate student studying software engineering
+            at the University of Westminster. I've worked with a variety of
+            technologies, ranging from web development to data structures and
+            algorithms. However, front end web development is my main interest.
+            I'm currently learning a variety of web development technologies,
+            including
+            <span class="intro-p-highlight"
+              >PHP, JavaScript, Java, HTML5, CSS3 (also including Bootstrap and tailwind)</span
+            >.
+          </p>
+          <!-- Buttons -->
+          <div class="row flex-column flex-sm-row gap-3">
+            <div class="col">
+              <a href="#sectionOne" class="btn text-white shadow btn-lg learn-btn" style="background-color: #20232a;"
+                >
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" class="expand-more"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
+                </a
               >
-              Learn More
-              <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" class="expand-more"><path d="m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z"/></svg>
-              </a
-            >
+            </div>
           </div>
         </div>
-      </div>
+      </div>  
     </div>
     <!-- Resume Section -->
     <section class="section" id="sectionOne">
@@ -253,8 +255,8 @@
     <section class="section" id="sectionTwo">
       <div class="container">
         <!-- Project 1 -->
-        <div class="row my-5 flex rounded border justify-content-center align-items-center m-1">
-          <p class="h3 light border rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
+        <div class="row my-5 flex rounded custom-border justify-content-center align-items-center m-1">
+          <p class="h3 light custom-border-heading  rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
           
           <div class="col-lg-4 col-8">
             <img src="./images/sample_img.png" class="img-fluid my-3 rounded shadow" alt="Responsive image">
@@ -272,8 +274,8 @@
           </div>
         </div>
         <!-- Project 2 -->
-        <div class="row my-5 flex border rounded justify-content-center align-items-center m-1">
-           <p class="h3 light border rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
+        <div class="row my-5 flex custom-border  rounded justify-content-center align-items-center m-1">
+           <p class="h3 light custom-border-heading rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
           <div class="col-lg-4 col-8">
             <img src="./images/sample_img.png" class="img-fluid my-3 rounded shadow" alt="Responsive image">
           </div>
@@ -289,8 +291,8 @@
           </div>
         </div>
         <!-- Project 3 -->
-        <div class="row my-5 flex border rounded justify-content-center m-1 align-items-center">
-           <p class="h3 light border rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
+        <div class="row my-5 flex custom-border  rounded justify-content-center m-1 align-items-center">
+           <p class="h3 light custom-border-heading  rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
           <div class="col-lg-4 col-8">
             <img src="./images/sample_img.png" class="img-fluid my-3 rounded shadow" alt="Responsive image">
           </div>
@@ -306,8 +308,8 @@
           </div>
         </div>
         <!-- Project 4 -->
-        <div class="row my-5 flex border rounded justify-content-center m-1 align-items-center">
-           <p class="h3 light border rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
+        <div class="row my-5 flex  custom-border rounded justify-content-center m-1 align-items-center">
+           <p class="h3 light custom-border-heading  rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
           <div class="col-lg-4 col-8">
             <img src="./images/sample_img.png" class="img-fluid my-3 rounded shadow" alt="Responsive image">
           </div>
@@ -324,8 +326,8 @@
           </div>
         </div>
         <!-- Project 5 -->
-        <div class="row my-5 flex rounded-top border justify-content-center align-items-center m-1">
-          <p class="h3 light border rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
+        <div class="row my-5 flex rounded-top custom-border  justify-content-center align-items-center m-1">
+          <p class="h3 light custom-border-heading rounded-top p-2 text-white shadow-sm text-lg-right text-center" style="background-color: #20232a;"> <strong class="d-block">Project title</strong> Project subtitle</p>
           
           <div class="col-lg-4 col-8">
             <img src="./images/sample_img.png" class="img-fluid my-3 rounded shadow" alt="Responsive image">
