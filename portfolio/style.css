@@ -20,8 +20,7 @@
 }
 
 .expand-more{
-    fill: black;
-    padding-top: 50px;
+    fill: white;
     animation-name: arrowUpDown;
     animation-iteration-count: infinite;
     animation-duration: 2s;
