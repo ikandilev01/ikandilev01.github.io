@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;1,900&display=swap');
+
 
 /* .p-lead-edu {
     /* display: flex; */
     /* justify-content: space-between; */
 /* } */
 
-.hero-heading, .navbar-brand, .learn-btn, .nav-item, .intro-p-highlight, .main-headings{
+.navbar-brand, .learn-btn, .nav-item, .intro-p-highlight, .main-headings, .custom-border-heading, .project-heading{
     font-family:'Poppins', 'Courier New', Courier, monospace;
     font-weight: 600;
 } 
 
-.custom-border-heading {
-    font-family:'Poppins', 'Courier New', Courier, monospace;
-    font-weight: 600;
+.hero-heading {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 900;
 }
 
-.custom-border-heading strong {
+.custom-border-heading strong, .project-desc{
     font-weight: 200;
 }
 
 body {
-    background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: radial-gradient(circle, #272843, #2d3258, #313e6f, #314987, #2d569f, #2a5faf, #2368bf, #1671d0, #1479dc, #1181e7, #0a8af3, #0092ff);
 }
 
 .custom-border {
