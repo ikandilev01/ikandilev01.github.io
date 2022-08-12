@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
 /* .p-lead-edu {
     /* display: flex; */
     /* justify-content: space-between; */
 /* } */
+
+.hero-heading, .navbar-brand, .learn-btn, .nav-item, .intro-p-highlight{
+    font-family:'Poppins', 'Courier New', Courier, monospace;
+    font-weight: 600;
+} 
+
+.intro-p {
+    font-family:'Poppins',Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+
+.expand-more {
+    fill: white;
+}
 
 .tool-icon {
     margin: 0px 15px;
@@ -39,4 +55,9 @@
 .sql-txt:hover {
     box-shadow: #10b5d6 0px 0px 0px 3px;
     color: #10b5d6;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
