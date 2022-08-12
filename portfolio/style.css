@@ -10,17 +10,24 @@
     font-weight: 600;
 } 
 
+.learn-btn {
+    margin-top: 25px;
+}
+
 .intro-p {
     font-family:'Poppins',Arial, Helvetica, sans-serif;
     font-weight: 200;
 }
 
 .expand-more{
-    fill: white;
+    fill: black;
+    padding-top: 50px;
     animation-name: arrowUpDown;
     animation-iteration-count: infinite;
     animation-duration: 2s;
 }
+
+
 
 @keyframes arrowUpDown {
     0% {
