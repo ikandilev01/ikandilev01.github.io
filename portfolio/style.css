@@ -24,6 +24,12 @@
     font-weight: 200;
 }
 
+.tech-items {
+    font-size: 18px;
+    font-family:'Poppins', 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+
 body {
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -31,15 +37,12 @@ body {
     
 }
 
-svg {
-    fill: white;
-}
-
 .custom-border {
     background-color: #21d5fd21;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: white;
 }
+
 
 .learn-btn {
     margin-top: 25px;
