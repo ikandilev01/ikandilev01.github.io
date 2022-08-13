@@ -6,23 +6,29 @@
     /* justify-content: space-between; */
 /* } */
 
-.navbar-brand, .learn-btn, .nav-item, .intro-p-highlight, .main-headings, .custom-border-heading, .project-heading{
+.hero-heading, .navbar-brand, .learn-btn, .nav-item, .intro-p-highlight, .main-headings, .custom-border-heading, .project-heading{
     font-family:'Poppins', 'Courier New', Courier, monospace;
     font-weight: 600;
 } 
 
-.hero-heading{
-    font-family: 'Poppins';
-    font-style: italic;
-    font-weight: 900;
-}
+
 
 .custom-border-heading strong, .project-desc, .tech-used{
+    font-family:'Poppins', 'Courier New', Courier, monospace;
+    font-weight: 200;
+}
+
+.tech-heading {
+    font-size: 24px;
+    font-family:'Poppins', 'Courier New', Courier, monospace;
     font-weight: 200;
 }
 
 body {
-    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f51b5, #1c2765, #1e275e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 svg {
@@ -74,13 +80,6 @@ svg {
 .tech-grid {
     border-radius: 1rem;
 }
-
-.tech-grid:hover {
-    
-    background-color: #20232a;
-    transition: all ease-in 0.3s;
-}
-
 .section {
     padding: 50px 0px;
 }
