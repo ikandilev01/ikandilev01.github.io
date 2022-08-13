@@ -11,6 +11,12 @@
     font-weight: 600;
 } 
 
+.hero {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 85vh;
+}
 
 
 .custom-border-heading strong, .project-desc, .tech-used{
