@@ -1,98 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,600;1,900&display=swap");
 
 /* .p-lead-edu {
     /* display: flex; */
-    /* justify-content: space-between; */
+/* justify-content: space-between; */
 /* } */
 
-.hero-heading, .navbar-brand, .learn-btn, .nav-item, .intro-p-highlight, .main-headings, .custom-border-heading, .project-heading{
-    font-family:'Poppins', 'Courier New', Courier, monospace;
-    font-weight: 600;
-} 
-
-.hero {
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-    height: 85vh;
+.hero-heading,
+.navbar-brand,
+.learn-btn,
+.nav-item,
+.intro-p-highlight,
+.main-headings,
+.custom-border-heading,
+.project-heading {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 600;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
 
-.custom-border-heading strong, .project-desc, .tech-used{
-    font-family:'Poppins', 'Courier New', Courier, monospace;
-    font-weight: 200;
+.custom-border-heading strong,
+.project-desc,
+.tech-used {
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 200;
 }
 
 .tech-heading {
-    font-size: 24px;
-    font-family:'Poppins', 'Courier New', Courier, monospace;
-    font-weight: 200;
+  font-size: 24px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 200;
 }
 
 .tech-items {
-    font-size: 18px;
-    font-family:'Poppins', 'Courier New', Courier, monospace;
-    font-weight: 200;
+  font-size: 18px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  font-weight: 200;
 }
 
 body {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3f51b5, #1c2765, #1e275e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f51b5,
+    #1c2765,
+    #1e275e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .custom-border {
-    background-color: #21d5fd21;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    color: white;
+  background-color: #21d5fd21;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: white;
 }
 
-
 .learn-btn {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .intro-p {
-    font-family:'Poppins',Arial, Helvetica, sans-serif;
-    font-weight: 200;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 200;
 }
 
-.expand-more{
-    fill: white;
-    animation-name: arrowUpDown;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
+.expand-more {
+  fill: white;
+  animation-name: arrowUpDown;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
 }
-
-
 
 @keyframes arrowUpDown {
-    0% {
-        transform: translateY(-10%);
-    }
+  0% {
+    transform: translateY(-10%);
+  }
 
-    50% {
-        transform: translateY(15%);
-    }
+  50% {
+    transform: translateY(15%);
+  }
 
-    100% {
-        transform: translateY(-10%);
-    }
+  100% {
+    transform: translateY(-10%);
+  }
 }
 
 .tool-icon {
-    margin: 0px 15px;
+  margin: 0px 15px;
 }
 
 .tech-grid {
-    border-radius: 1rem;
+  border-radius: 1rem;
 }
 .section {
-    padding: 50px 0px;
+  padding: 50px 0px;
 }
-
 
 /* Old hover effects */
 /* .java-txt:hover, .js-txt:hover {
